@@ -1,0 +1,734 @@
+.html{
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', Arial, sans-serif; /* Add 'Poppins' as the primary font */
+
+   
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000000;
+    color: #fff;
+    margin-top: 20px;
+    align-items: ;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav__icon {
+    cursor: pointer;
+    font-size: 25px; 
+    margin-left: -50px;
+   /* Adjust the size as needed */
+}
+
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    margin-right: -50px;
+   
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: #990404; 
+}
+
+.nav__item {
+    margin-right: 15px;
+    color: #990404;  
+}
+
+.nav__link {
+   
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+        padding: 10px 15px;
+        color: linear-gradient(to bottom, #1e1e1e, #333333); /* Gradient from dark gray to slightly lighter gray */
+        border-radius: 5px;
+        color: rgb(255, 255, 255); /* Set the default text color to white */
+        font-weight: 100;
+       
+}
+
+.nav__link:hover {
+    color: rgb(77, 77, 77); /* Change to the desired hover color */
+}
+
+
+.home__img{
+margin-top: 140px;
+margin-left: -50px;
+}
+
+    .nav__menu.active {
+        display: flex;
+    }
+
+    .nav__item {
+        margin: 10px 0;
+    }
+
+    .nav__link {
+        color: #fff;
+    }
+}
+
+.home__subtitle h2 {
+    font-size: medium;
+    padding-bottom: 0px; /* Adjust this value as needed */
+    margin-top: 120px;
+    text-align: right;
+}
+
+.home__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home__data {
+    color: aliceblue;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.home__header {
+    position: relative;
+    font-weight: bold; 
+    font-family: 'Poppins', Arial, sans-serif; /* Add 'Poppins' as the primary font */
+    /* Add this line to make the font bold */
+}
+.home__title {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #333333;
+    white-space: nowrap;
+    
+}
+
+.home__subtitle {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: -10px; /* Adjust this value to move the subtitle up */
+    margin-top: -40px; /* Adjust this value to move the subtitle up */
+}
+
+/*=============== CUSTOM BUTTON LINK ===============*/
+/* Normal state */
+.cat-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.47);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+/* Hover state */
+.cat-button:hover {
+    background-color: white;
+    color: black; /* You can adjust the color as needed */
+}
+
+/*=============== SPECS ===============*/
+
+
+
+.specs section {
+    align-items: flex-start; /* Align to the start (left) */
+}
+
+.section__title {
+    color: #393939;
+    text-align: center; /* Align the text to the left */
+    margin-top: 10rem;
+    font-size: 6rem;
+}
+
+.specs__container {
+    position: relative;
+    color: aliceblue;
+    top: 2rem;
+    text-align: left;
+}
+
+.specs__content {
+    row-gap: 7.5rem;
+    margin-left: 3rem;
+}
+
+.specs__data {
+    display: grid;
+    row-gap: -7.5rem;
+   
+}
+
+.specs__data h3{
+    display: grid;
+    margin-top: 2rem;
+    row-gap: -7.5rem;
+  
+   
+}
+.specs__icon {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.specs__title {
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #bfb7b7cb;
+    margin-bottom: -2rem;
+    
+}
+
+.specs__subtitle {
+    font-size: medium;
+    text-align: left;
+    margin-left: 50rem; 
+    row-gap: 2.45rem;
+    line-height: 2rem; 
+  
+    
+    /* Adjust the margin value based on your preference */
+}
+
+.card-holder {
+    padding-top: 1rem;
+    width: 980px;
+    height: 354px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px auto; /* Adjust the margin property as needed */
+    display: block; /* Use block display to make it a block-level element */
+    text-align: center;
+}
+
+
+.img01 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 20px;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+    font-weight: 300; /* Adjust the value as needed */
+}
+
+
+
+
+.card-holder1 {
+   
+    padding-top: 1rem;
+    width: 326px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    position: relative;
+    top: -2.9rem;
+    display: inline-block;
+    text-align: center;
+    margin-left: 16.8rem;
+}
+
+
+
+.img01 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 20px;
+}
+
+
+
+
+
+.card-holder h3,
+.card-holder1 h3,
+.card-holder2 h3,
+.card-holder3 h3,
+.card-holder4 h3,
+.card-holder5 h3,
+.card-holder6 h3,
+.card-holder7 h3
+ {
+    font-weight: 300; 
+    font-size: small;
+}
+
+
+.card-holder2 {
+    padding-top: 1rem;
+    width: 309px;
+    height: 290px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    position: relative;
+    top: -0.2rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: 0rem;
+}
+
+
+
+.img02 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 20px;
+}
+.card-holder3 {
+    padding-top: 1rem;
+    width: 320px;
+    height: 200x;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+   position: relative;
+    top: -20.6rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: 58.2rem;
+}
+
+
+
+
+.img03 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 20px;
+}
+
+
+.card-holder4 {
+    padding-top: 1rem;
+    width: 320px;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+   position: relative;
+    top: -20.6rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: 58.2rem;
+}
+
+
+
+.img04 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 20px;
+}
+
+.card-holder5 {
+    padding-top: 1.4rem;
+    width: 322px;
+    height: 20x;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+   position: relative;
+    top: -42rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: 17rem;
+}
+
+
+
+.img05 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 20px;
+}
+
+.card-holder6 {
+    padding-top: 1rem;
+    width: 300px;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+   position: relative;
+    top: -57.3rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: 38.4rem;
+}
+
+
+
+.img06 {
+    width: 50rem;
+    height: auto;
+    display: block;
+    
+    
+    border-radius: 20px;
+}
+.card-holder7 {
+    padding-top: 1rem;
+    width: 300px;
+    height: 20px;
+    background-color: rgb(145, 96, 96);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+   position: relative;
+    top: -44.5rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: -19.5rem;
+}
+
+
+
+.img07 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
+    border-radius: 20px;
+}
+
+.card-holder8 {
+    padding-top: 1rem;
+    width: 980px;
+    height: 354px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px auto; /* Adjust the margin property as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -56.9rem;
+}
+
+.img8 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.line {
+    border-top: 0.2px solid #6d6d6d71; /* Adjust color and thickness as needed */
+    width: 100%; /* Adjust the width of the line */
+    margin-top: 1rem;
+}
+footer {
+    background-color: #f0f0f0; /* Set the background color */
+    padding: 10px; /* Add some padding for spacing */
+    text-align: center; /* Center-align the content */
+    margin-top: 30rem; /* Add margin to the top for spacing */
+}
+
+.footer1 {
+    color: #333; /* Set the text color */
+    font-size: 14px; /* Set the font size */
+    margin: 0; /* Remove any default margins */
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .header {
+        background-color: rgb(0, 0, 0); /* Replace 'BL' with a valid color code */
+        color: #fff;
+        margin-top: 20px;
+        align-items: center; /* Add a valid value, such as 'center' */
+        justify-content: space-around;
+        margin-left: 6rem;
+    }
+    .nav__menu {
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+       
+    }
+
+    .home__container {
+        grid-template-columns: 30fr;
+    }
+
+    .home__data {
+        text-align: center;
+        font-size: small;
+    }
+    .specs__container {
+        grid-template-columns: fr;
+    }
+    .section__title {
+        color: #393939;
+        text-align: center; /* Align the text to the left */
+        margin-top: 10rem;
+        font-size: 4rem;
+        
+    }
+    .specs__subtitle {
+        text-align: center;
+        margin-left: 0;
+        text-align: left;
+        margin-top: 3rem;
+    }
+    .card-holder {
+        padding-top: 1rem;
+        width: 440px;
+        height: 354px;
+        background-color:  rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin: 10px auto; /* Adjust the margin property as needed */
+        display: block; /* Use block display to make it a block-level element */
+        text-align: center;
+    }
+    .card-holder1 {
+   
+        padding-top: rem;
+        width: 326px;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin: 10px;
+        position: relative;
+        top: -.9rem;
+        display: inline-block;
+        text-align: center;
+        margin-left: 5.8rem;
+    }
+    
+    
+    .card-holder2 {
+        padding-top: rem;
+        width: 309px;
+        height: 290px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin: 10px;
+        position: relative;
+        top: -1.8rem; 
+        display: inline-block;
+        text-align: center;
+        margin-left: 6.5rem;
+    }
+
+    .card-holder3 {
+        padding-top: 1rem;
+        width: 320px;
+        height: 200x;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin: 10px;
+       position: relative;
+        top: -2.7rem; 
+        display: inline-block;
+        text-align: center;
+        margin-left: 6.11rem;
+    }
+    
+    .card-holder8 {
+        padding-top: 1rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 400px;
+        height: 200px;
+        background-color:  rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin: 10px auto; /* Adjust the margin property as needed */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -5.8rem;
+    }
+
+    .img08 {
+        width: 1px;
+        height: auto;
+        display: block;
+        border-radius: 20px;
+    }
+.card-holder4 {
+    padding-top: 1rem;
+    width: 320px;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+   position: relative;
+    top: -3.7rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: 6rem;
+}
+
+.card-holder5 {
+    padding-top: 1.4rem;
+    width: 322px;
+    height: 20x;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+   position: relative;
+    top: -4.6rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: 6rem;
+}
+
+.card-holder6 {
+    padding-top: 1rem;
+    width: 300px;
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    position: relative;
+    top: -5.5rem; 
+    display: inline-block;
+    text-align: center;
+    margin-left: 6.6rem;
+}
+
+
+footer {
+    background-color: #f0f0f0; /* Set the background color */
+    padding: 10px; /* Add some padding for spacing */
+    text-align: center; /* Center-align the content */
+    margin-top: 5rem; /* Add margin to the top for spacing */
+}
+
+.footer1 {
+    color: #333; /* Set the text color */
+    font-size: 14px; /* Set the font size */
+    margin: 0; /* Remove any default margins */
+}
+
+.home__img{
+   max-width: 20rem;
+  position: relative;
+  margin-right: -500px;
+  margin-left: 5rem;
+  margin-top: -100rem;margin-bottom: 3rem;
+}    
+.home__title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #333333;
+    white-space: nowrap;
+    position: relative;
+    left: -3rem; /* Adjust the value based on your preference */
+    top: 6rem; /* Adjust the value based on your preference */
+}
+
+.home__subtitle {
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+    top: 7rem; 
+    margin-left: -7rem;
+}
+
+.home__description {
+    position: relative;
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 20px; /* Adjust the value based on your preference */
+    padding-left: 1rem;
+    padding-right: 7rem;
+}
+
+
+
+.home__title-description {
+    padding-top: 10rem;
+    align-items: center;
+    position: relative;
+    margin-top: -2rem;
+    margin-left: -8rem;
+    
+}
+.cat-button{
+    margin-left: -12.1rem;
+}
+.specs__container {
+    text-align: center;
+}
+
+.specs__title {
+    font-size: 1.5rem; /* Adjust the font size based on your preference */
+}
+
+.specs__subtitle {
+    font-size: 1rem;
+    text-align: center;
+    padding-right: 1rem; /* Adjust the font size based on your preference */
+}
+
+}
